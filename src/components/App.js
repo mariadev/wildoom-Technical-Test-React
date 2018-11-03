@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import CustomGrid from './CustomGrid';
-import UpperLink from './UpperLink';
-
+import CustomeSection from './CustomeSection';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <UpperLink
-        title= "Ver todas las últimas noticias"
-      />
-      <CustomGrid/>
+      <CustomeSection/>
       </div>
     );
   }

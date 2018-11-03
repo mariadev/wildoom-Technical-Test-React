@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import InnerLinkPlay from './InnerPlayLink';
-
 class InnerLink extends Component {
     render() {
         return (
             <div className=" inner-link">
-                <InnerLinkPlay />
-                <h2 className="inner-link__category">
+            <div className=" inner-link-wrapper">
+            <InnerLinkPlay />
+                <h2 className="inner-link-wrapper__category">
                     {this.props.category}
                 </h2>
-                <h1 className="inner-link__title">
+                </div>
+                <h1 className="inner-link-wrapper__title">
                     {this.props.title}
                 </h1>
             </div>
