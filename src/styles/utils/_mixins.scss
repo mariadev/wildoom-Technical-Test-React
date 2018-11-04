@@ -27,3 +27,9 @@
         grid-column-gap: 6px;
     }
 }
+
+@mixin ItemsBackGroundImage($img){
+    background: linear-gradient(61deg, #000000 0%, rgba(0, 0, 0, 0) 70%),url($img);
+    background-size: cover;
+        background-position: center;
+}

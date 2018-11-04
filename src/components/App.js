@@ -16,8 +16,10 @@ class App extends Component {
         categoryItem1="soy tu matrona"
         categoryItem2="objetivo empleo"
         categoryItem3="alimentación"
-        img1={img1}
         gridSize="custom-grid-three-elements"
+        item1Image="image1"
+        item2Image="image2"
+        item3Image="image3"
       />
       </div>
     );

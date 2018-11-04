@@ -21,6 +21,9 @@ class CustomeSection extends Component {
                 categoryItem3={this.props.categoryItem3}
                 img1={this.props.img1}
                 gridSize={this.props.gridSize}
+                item1Image={this.props.item1Image}
+                item2Image={this.props.item2Image}
+                item3Image={this.props.item3Image}
                 />
             </section>
         );

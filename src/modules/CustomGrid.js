@@ -6,16 +6,9 @@ import PlayLink from './PlayLink';
 class CustomGrid extends Component {
     
     render() {
-        const styles = {
-            img1: {
-                background: `linear-gradient(61deg, #000000 0%, rgba(0, 0, 0, 0) 70%),url(${this.props.img1})`,
-                backgroundSize: `cover`,
-                backgroundPosition: `center`,
-            }
-        };
         return (
             <div className={`${this.props.gridSize}`}>
-                <div className={`${this.props.gridSize} item1`} style={styles.img1}>
+                <div className={`${this.props.gridSize} item1 ${this.props.item1Image}`} >
                     <div className="wrapper-text-grid">
                         <PlayLink
                             logoGridPlay={this.props.logoGridPlay}
@@ -31,7 +24,7 @@ class CustomGrid extends Component {
                     />
 
                 </div>
-                <div className={`${this.props.gridSize} item2`}>
+                <div className={`${this.props.gridSize} item2 ${this.props.item2Image}`}>
                     <div className="wrapper-text-grid">
                         <PlayLink
                             logoGridPlay={this.props.logoGridPlay}
@@ -46,7 +39,7 @@ class CustomGrid extends Component {
                         title="2.750 plazas para emfermería en los próximos meses"
                     />
                 </div>
-                <div className={`${this.props.gridSize} item3`}>
+                <div className={`${this.props.gridSize} item3 ${this.props.item3Image}`}>
                     <div className="wrapper-text-grid">
                         <PlayLink
                             logoGridPlay={this.props.logoGridPlay}
