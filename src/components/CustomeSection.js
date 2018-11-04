@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import CustomGrid from '../modules/CustomGrid';
-import SectionTitle from '../modules/SectionTitle';
+import CustomGrid from './CustomGrid';
+import SectionTitle from './SectionTitle';
 
 class CustomeSection extends Component {
     render() {
@@ -21,6 +21,13 @@ class CustomeSection extends Component {
                 categoryItem1={this.props.categoryItem1}
                 categoryItem2={this.props.categoryItem2}
                 categoryItem3={this.props.categoryItem3}
+                categoryItem4={this.props.categoryItem4}
+                categoryItem5={this.props.categoryItem5}
+                containerSize1={this.props.containerSize1}
+                containerSize2={this.props.containerSize2}
+                containerSize3={this.props.containerSize3}
+                containerSize4={this.props.containerSize4}
+                containerSize5={this.props.containerSize5}
                 titleSizeItem1={this.props.titleSizeItem1}
                 titleSizeItem2={this.props.titleSizeItem2}
                 titleSizeItem3={this.props.titleSizeItem3}

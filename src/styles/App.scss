@@ -5,10 +5,13 @@
 @import "utils/mixins";
 
 @import "pages/common";
-@import "pages/customeSection";
+
 
 @import "components/customgrid";
-@import "components/builder";
 @import "components/sectionTitle";
-@import "components/innerTextGrid";
+@import "components/customeSection";
+
+@import "modules/innerTextGridTitle";
+@import "modules/innerTextGridLogoCategory";
+
 

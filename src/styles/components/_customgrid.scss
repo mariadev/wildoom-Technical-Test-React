@@ -1,11 +1,8 @@
 .custom-grid-three-elements{
     width: 100%;
     height: calc(100% - 3px);
-    @include display-grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 137.5px);
-    grid-row-gap: 6px;
-    grid-column-gap: 6px;
+    @include custome-basegrid-up-to-5elements;
+    
 
     .item1 {
         @include centerInnerTextGrid();
@@ -23,11 +20,7 @@
 .custom-grid-five-elements{
     width: 100%;
     height: calc(100% - 3px);
-    @include display-grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 137.5px);
-    grid-row-gap: 6px;
-    grid-column-gap: 6px;
+    @include custome-basegrid-up-to-5elements;;
 
     .item1 {
         @include centerInnerTextGrid();
@@ -67,5 +60,11 @@
 }
 .image5{
     @include ItemsBackGroundImage("../images/photo5.png"); 
+}
+.image6{
+    @include ItemsBackGroundImage("../images/photo6.png"); 
+}
+.noimage{
+    @include ItemsBackGroundColorImageEmpty;
 }
 

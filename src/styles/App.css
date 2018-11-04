@@ -39,21 +39,13 @@ body {
   color: #FFFFFF;
   font-family: "Raleway", sans-serif; }
 
-.wrapper-custome-section {
-  width: 85%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  margin-top: 90px; }
-
 .custom-grid-three-elements {
   width: 100%;
   height: calc(100% - 3px);
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 137.5px);
+  grid-template-rows: repeat(4, 132.75px);
   grid-row-gap: 6px;
   grid-column-gap: 6px; }
   .custom-grid-three-elements .item1 {
@@ -93,7 +85,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 137.5px);
+  grid-template-rows: repeat(4, 132.75px);
   grid-row-gap: 6px;
   grid-column-gap: 6px; }
   .custom-grid-five-elements .item1 {
@@ -175,6 +167,14 @@ body {
   background-size: cover;
   background-position: center; }
 
+.image6 {
+  background: linear-gradient(61deg, #000000 0%, rgba(0, 0, 0, 0) 70%), url("../images/photo6.png");
+  background-size: cover;
+  background-position: center; }
+
+.noimage {
+  background-color: #7ea9ae; }
+
 .wrapper-section-title {
   width: 100%;
   box-sizing: border-box;
@@ -212,6 +212,35 @@ body {
       transform: rotate(-45deg);
       -webkit-transform: rotate(-45deg); }
 
+.wrapper-custome-section {
+  width: 85.375%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 90px; }
+
+.text-grid-title {
+  margin-top: 8px;
+  padding-bottom: 28px;
+  padding-left: 28px;
+  font-weight: 900; }
+  .text-grid-title__xl {
+    font-size: 36px; }
+  .text-grid-title__l {
+    font-size: 24px; }
+  .text-grid-title__m {
+    font-size: 18px; }
+
+.container-width__l {
+  width: 470px; }
+
+.container-width__m {
+  width: 300px; }
+
+.container-width__s {
+  width: 280px; }
+
 .wrapper-text-grid {
   display: flex;
   flex-direction: row;
@@ -227,15 +256,3 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     align-self: center; }
-
-.text-grid-title {
-  margin-top: 8px;
-  padding-bottom: 28px;
-  padding-left: 28px;
-  font-weight: 900; }
-  .text-grid-title__xl {
-    font-size: 36px; }
-  .text-grid-title__l {
-    font-size: 24px; }
-  .text-grid-title__m {
-    font-size: 18px; }

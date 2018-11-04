@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import InnerTextGridCategory from './InnerTextGridCategory';
-import InnerTextGridTitle from './InnerTextGridTitle';
-import PlayLink from './PlayLink';
+import InnerTextGridCategory from './modules/InnerTextGridCategory';
+import InnerTextGridTitle from './modules/InnerTextGridTitle';
+import PlayLink from './modules/PlayLink';
 
 class CustomGrid extends Component {
-    
+
     render() {
         return (
             <div className={`${this.props.gridSize}`}>
@@ -19,6 +19,7 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
+                        containerSize={this.props.containerSize1}
                         titleSize={this.props.titleSizeItem1}
                         title={this.props.titleTextItem1}
                     />
@@ -35,7 +36,8 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
-                        titleSize= {this.props.titleSizeItem2}
+                        containerSize={this.props.containerSize2}
+                        titleSize={this.props.titleSizeItem2}
                         title={this.props.titleTextItem2}
                     />
                 </div>
@@ -50,6 +52,7 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
+                        containerSize={this.props.containerSize3}
                         titleSize={this.props.titleSizeItem3}
                         title={this.props.titleTextItem3}
                     />
@@ -65,6 +68,7 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
+                        containerSize={this.props.containerSize4}
                         titleSize={this.props.titleSizeItem4}
                         title={this.props.titleTextItem4}
                     />
@@ -80,6 +84,7 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
+                        containerSize={this.props.containerSize5}
                         titleSize={this.props.titleSizeItem5}
                         title={this.props.titleTextItem5}
                     />
