@@ -19,8 +19,8 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
-                        titleSize="xl"
-                        title="Cursos de Educación para Maternidad y Preparación al Parto"
+                        titleSize={this.props.titleSizeItem1}
+                        title={this.props.titleTextItem1}
                     />
 
                 </div>
@@ -35,8 +35,8 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
-                        titleSize="l"
-                        title="2.750 plazas para emfermería en los próximos meses"
+                        titleSize= {this.props.titleSizeItem2}
+                        title={this.props.titleTextItem2}
                     />
                 </div>
                 <div className={`${this.props.gridSize} item3 ${this.props.item3Image}`}>
@@ -50,8 +50,38 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
-                        titleSize="l"
-                        title="La vuelta al cole y el cambio en las rutinas de alimentación saludable "
+                        titleSize={this.props.titleSizeItem3}
+                        title={this.props.titleTextItem3}
+                    />
+                </div>
+                <div className={`${this.props.gridSize} item4 ${this.props.item4Image} ${this.props.hideItem4}`}>
+                    <div className="wrapper-text-grid">
+                        <PlayLink
+                            logoGridPlay={this.props.logoGridPlay}
+                            hiddePlay={this.props.hiddePlayItem4}
+                        />
+                        <InnerTextGridCategory
+                            category={this.props.categoryItem4}
+                        />
+                    </div>
+                    <InnerTextGridTitle
+                        titleSize={this.props.titleSizeItem4}
+                        title={this.props.titleTextItem4}
+                    />
+                </div>
+                <div className={`${this.props.gridSize} item5 ${this.props.item5Image} ${this.props.hideItem5}`}>
+                    <div className="wrapper-text-grid">
+                        <PlayLink
+                            logoGridPlay={this.props.logoGridPlay}
+                            hiddePlay={this.props.hiddePlayItem5}
+                        />
+                        <InnerTextGridCategory
+                            category={this.props.categoryItem5}
+                        />
+                    </div>
+                    <InnerTextGridTitle
+                        titleSize={this.props.titleSizeItem5}
+                        title={this.props.titleTextItem5}
                     />
                 </div>
             </div>
