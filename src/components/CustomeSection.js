@@ -6,14 +6,23 @@ import SectionTitle from '../modules/SectionTitle';
 class CustomeSection extends Component {
     render() {
         return (
-            <div className="wrapper-custome-section">
+            <section className="wrapper-custome-section">
                 <SectionTitle
-                    title="Grid de 3 elemetos"
-                    link="Ver todas las últimas noticias"
+                    sectionTitleContent={this.props.sectionTitleContent}
+                    sectionTitleLink={this.props.sectionTitleLink}
                 />
                 <CustomGrid
+                logoGridPlay={this.props.logoGridPlay}
+                hiddePlayItem1={this.props.hiddePlayItem1}
+                hiddePlayItem2={this.props.hiddePlayItem2}
+                hiddePlayItem3={this.props.hiddePlayItem3}
+                categoryItem1={this.props.categoryItem1}
+                categoryItem2={this.props.categoryItem2}
+                categoryItem3={this.props.categoryItem3}
+                img1={this.props.img1}
+                gridSize={this.props.gridSize}
                 />
-            </div>
+            </section>
         );
     }
 }

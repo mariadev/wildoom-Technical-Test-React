@@ -1,39 +1,32 @@
-.custom-grid{
-    display: grid;
+.custom-grid-three-elements{
+    @include display-grid;
     grid-template-columns: 680px 680px;
     grid-template-rows: 275px 275px;
     grid-row-gap: 6px;
     grid-column-gap: 6px;
+    .item1 {
+        @include centerInnerTextGrid();
+        @include grid-child(1, 2, 1, 4); 
+    }
+    .item2 {
+        @include centerInnerTextGrid();
+        @include grid-child(2, 3, 1, 2); 
+        background: linear-gradient(61deg, #000000 0%, rgba(0, 0, 0, 0) 70%),url("../images/photo2.png");
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-size: cover;
+        background-position: center; 
+    }
+    
+    .item3 {
+        @include centerInnerTextGrid();
+        @include grid-child(2, 3, 2, 4); 
+        background: linear-gradient(61deg, #000000 0%, rgba(0, 0, 0, 0) 70%),url("../images/photo3.png");
+        background-size: cover;
+        background-position: center; 
+    }
+    
 }
 
-.item1 {
-    display: flex;
-    background: linear-gradient(61deg, #000000 0%, rgba(0, 0, 0, 0) 70%),url("../images/photo1.png");
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    background-size: cover;
-    background-position: center; 
-}
-.item2 {
-    display: flex;
-    background: linear-gradient(61deg, #000000 0%, rgba(0, 0, 0, 0) 70%),url("../images/photo2.png");
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    background-size: cover;
-    background-position: center; 
-}
-
-.item3 {
-    display: flex;
-    background: linear-gradient(61deg, #000000 0%, rgba(0, 0, 0, 0) 70%),url("../images/photo3.png");
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    background-size: cover;
-    background-position: center; 
-}

@@ -2,12 +2,13 @@
 @import "base/reset";
 
 @import "utils/vars";
+@import "utils/mixins";
 
 @import "pages/common";
+@import "pages/customeSection";
 
 @import "components/customgrid";
 @import "components/builder";
-@import "components/innerPlayLink";
 @import "components/sectionTitle";
-@import "components/innerLink";
+@import "components/innerTextGrid";
 

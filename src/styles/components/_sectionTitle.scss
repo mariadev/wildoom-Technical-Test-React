@@ -1,13 +1,12 @@
 .wrapper-section-title{
-    width: 1366px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-}
-.section{
-    font-size: $font-size-x;
-    font-weight: $black;
-    color:$color-black;
+    &__content{
+        font-size: $font-size-x;
+        font-weight: $black;
+        color:$color-black;
+    }
 }
 .link{
     background-color: $color-CaribbeanGreen;
@@ -40,4 +39,5 @@
         }
     }
 }
+
 
