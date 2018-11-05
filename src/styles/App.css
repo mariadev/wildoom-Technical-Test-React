@@ -228,14 +228,16 @@ body {
     font-weight: 900; }
   .text-grid-title__l {
     font-size: 24px;
-    font-weight: 900; }
+    font-weight: 900;
+    margin-right: 100px; }
   .text-grid-title__m {
     font-size: 18px;
-    font-weight: 900; }
+    font-weight: 900;
+    margin-right: 5px; }
   .text-grid-title:hover {
     color: #00db92; }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1600px) {
   .text-grid-title__l {
     margin-right: 182px; }
   .text-grid-title__m {

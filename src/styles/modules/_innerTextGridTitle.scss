@@ -9,16 +9,18 @@
     &__l{
         font-size:$font-size-l;
         font-weight: $black;
+        margin-right: 100px;
     }
     &__m{
         font-size:$font-size-m;
         font-weight: $black;
+        margin-right: 5px;
     }
     &:hover{
         color:$color-CaribbeanGreen;
     }
 }
-@media all and (min-width:1200px){
+@media all and (min-width:1600px){
 
     .text-grid-title{
         &__l{
