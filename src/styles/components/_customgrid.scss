@@ -40,6 +40,9 @@
 .hidde{
     display: none;
 }
+
+//classes to add a background image to the custom grid
+
 .image1{
     @include ItemsBackGroundImage("../images/photo1.png"); 
 }

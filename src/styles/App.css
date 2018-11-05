@@ -189,10 +189,7 @@ body {
   .link__title {
     font-size: 18px;
     font-weight: 900;
-    padding-left: 25px;
-    padding-right: 7px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding: 10px 7px 10px 25px;
     letter-spacing: -0.14px; }
   .link__icon {
     width: 15px;
@@ -218,8 +215,7 @@ body {
 
 .text-grid-title {
   margin-top: 8px;
-  padding-bottom: 28px;
-  padding-left: 28px;
+  padding: 0 0 28px 28px;
   font-weight: 900; }
   .text-grid-title__xl {
     font-size: 36px; }
