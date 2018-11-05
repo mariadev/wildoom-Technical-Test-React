@@ -2,12 +2,25 @@
     display: flex;
     flex-direction: row;
     margin-left: 28px;
-
-    &__logo{
+    svg{
         width: 25px;
         height: 25px;  
         margin-right: 8px;
-        
+        transition: transform .8s ease-out;
+        overflow: visible;
+        #Rectangle{
+            stroke-width:6;
+        }
+    }
+    svg:hover {
+        transform: scale(1.2);
+        transition: transform .2s ease-in;
+        #Triangle{
+            fill:white;
+        }
+        #Rectangle{
+            stroke:$color-CaribbeanGreen;
+        }
     }
     .hidde{
         display:none

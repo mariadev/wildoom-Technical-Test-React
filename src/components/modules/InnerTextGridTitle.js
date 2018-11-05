@@ -1,12 +1,12 @@
 import React from 'react';
 
-const InnerTextTitle = ({ titleSize, containerSize, title }) => {
+const InnerTextTitle = ({ titleSize, title }) => {
   return (
-    <div className={`text-grid-title ${containerSize}`}>
-      <h1 className={`text-grid-title__${titleSize}`}>
+    <div className="text-grid-title">
+      <a href="home" className={`text-grid-title__${titleSize}`}>
         {title}
-      </h1>
-    </div>
+      </a>
+      </div>
   );
 };
 

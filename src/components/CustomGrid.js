@@ -11,7 +11,6 @@ class CustomGrid extends Component {
                 <div className={`${this.props.gridSize} item1 ${this.props.item1Image}`} >
                     <div className="wrapper-text-grid">
                         <PlayLink
-                            logoGridPlay={this.props.logoGridPlay}
                             hiddePlay={this.props.hiddePlayItem1}
                         />
                         <InnerTextGridCategory
@@ -19,7 +18,6 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
-                        containerSize={this.props.containerSize1}
                         titleSize={this.props.titleSizeItem1}
                         title={this.props.titleTextItem1}
                     />
@@ -28,7 +26,6 @@ class CustomGrid extends Component {
                 <div className={`${this.props.gridSize} item2 ${this.props.item2Image}`}>
                     <div className="wrapper-text-grid">
                         <PlayLink
-                            logoGridPlay={this.props.logoGridPlay}
                             hiddePlay={this.props.hiddePlayItem2}
                         />
                         <InnerTextGridCategory
@@ -36,7 +33,6 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
-                        containerSize={this.props.containerSize2}
                         titleSize={this.props.titleSizeItem2}
                         title={this.props.titleTextItem2}
                     />
@@ -44,7 +40,6 @@ class CustomGrid extends Component {
                 <div className={`${this.props.gridSize} item3 ${this.props.item3Image}`}>
                     <div className="wrapper-text-grid">
                         <PlayLink
-                            logoGridPlay={this.props.logoGridPlay}
                             hiddePlay={this.props.hiddePlayItem3}
                         />
                         <InnerTextGridCategory
@@ -52,7 +47,6 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
-                        containerSize={this.props.containerSize3}
                         titleSize={this.props.titleSizeItem3}
                         title={this.props.titleTextItem3}
                     />
@@ -60,7 +54,6 @@ class CustomGrid extends Component {
                 <div className={`${this.props.gridSize} item4 ${this.props.item4Image} ${this.props.hideItem4}`}>
                     <div className="wrapper-text-grid">
                         <PlayLink
-                            logoGridPlay={this.props.logoGridPlay}
                             hiddePlay={this.props.hiddePlayItem4}
                         />
                         <InnerTextGridCategory
@@ -68,7 +61,6 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
-                        containerSize={this.props.containerSize4}
                         titleSize={this.props.titleSizeItem4}
                         title={this.props.titleTextItem4}
                     />
@@ -76,7 +68,6 @@ class CustomGrid extends Component {
                 <div className={`${this.props.gridSize} item5 ${this.props.item5Image} ${this.props.hideItem5}`}>
                     <div className="wrapper-text-grid">
                         <PlayLink
-                            logoGridPlay={this.props.logoGridPlay}
                             hiddePlay={this.props.hiddePlayItem5}
                         />
                         <InnerTextGridCategory
@@ -84,7 +75,6 @@ class CustomGrid extends Component {
                         />
                     </div>
                     <InnerTextGridTitle
-                        containerSize={this.props.containerSize5}
                         titleSize={this.props.titleSizeItem5}
                         title={this.props.titleTextItem5}
                     />

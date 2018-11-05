@@ -1,25 +1,31 @@
 .text-grid-title{
     margin-top: 8px;
-    padding: 0 0 28px 28px;
-    font-weight: $black;
+    padding: 0 0px 28px 28px;
+    transition: all .40s ease-out;
     &__xl{
         font-size:$font-size-xl;
+        font-weight: $black;
     }
     &__l{
         font-size:$font-size-l;
+        font-weight: $black;
     }
     &__m{
         font-size:$font-size-m;
+        font-weight: $black;
+    }
+    &:hover{
+        color:$color-CaribbeanGreen;
     }
 }
+@media all and (min-width:1200px){
 
-.container-width__l{
-    width:470px;
-}
-.container-width__m{
-    width:300px;
-}
-.container-width__s{
-    width:280px;
-}
-    
+    .text-grid-title{
+        &__l{
+            margin-right: 160px;
+        }
+        &__m{
+            margin-right: 30px;
+        }
+    }
+} 

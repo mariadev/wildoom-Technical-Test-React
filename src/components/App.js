@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import play from '../images/play-webtv.svg';
 import CustomeSection from './CustomeSection';
 
 class App extends Component {
@@ -10,7 +9,6 @@ class App extends Component {
         <CustomeSection
           sectionTitleContent="Grid de 3 elemetos"
           sectionTitleLink="Ver todas las últimas noticias"
-          logoGridPlay={play}
           hiddePlayItem2="hidde"
           categoryItem1="soy tu matrona"
           categoryItem2="objetivo empleo"
@@ -33,7 +31,6 @@ class App extends Component {
         <CustomeSection
           sectionTitleContent="Grid de 5 elemetos"
           sectionTitleLink="Ver todas las noticias de Categoría"
-          logoGridPlay={play}
           hiddePlayItem2="hidde"
           hiddePlayItem5="hidde"
           categoryItem1="categoría"
@@ -41,10 +38,6 @@ class App extends Component {
           categoryItem3="categoría"
           categoryItem4="categoría"
           categoryItem5="categoría"
-          containerSize2="container-width__l"
-          containerSize3="container-width__s"
-          containerSize4="container-width__m"
-          containerSize5="container-width__s"
           titleSizeItem1="xl"
           titleSizeItem2="l"
           titleSizeItem3="m"
