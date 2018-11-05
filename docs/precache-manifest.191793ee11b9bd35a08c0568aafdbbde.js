@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "a8c8ed48a1db3d40bda84eda823b4c14",
-    "url": "./static/media/raleway-v12-latin-500.a8c8ed48.svg"
+    "revision": "a58f25dc87faec123dd985c60acd54ff",
+    "url": "./static/media/raleway-v12-latin-900.a58f25dc.woff"
   },
   {
     "revision": "ac1b5355c9d3df91d3b4",
@@ -16,20 +16,20 @@ self.__precacheManifest = [
     "url": "./static/js/runtime~main.4a686d48.js"
   },
   {
-    "revision": "b1739e04c0f6cb3e23a4d4d50f3952d8",
-    "url": "./static/media/raleway-v12-latin-500.b1739e04.eot"
-  },
-  {
-    "revision": "63f872bd86b6c89b54a78a5ff8f8c634",
-    "url": "./static/media/raleway-v12-latin-500.63f872bd.ttf"
+    "revision": "827182817f267a45d66d5505e4ea65ad",
+    "url": "./static/media/raleway-v12-latin-500.82718281.woff"
   },
   {
     "revision": "de818060c850c7842e9f2cb4d409d2ba",
     "url": "./static/media/raleway-v12-latin-500.de818060.woff2"
   },
   {
-    "revision": "827182817f267a45d66d5505e4ea65ad",
-    "url": "./static/media/raleway-v12-latin-500.82718281.woff"
+    "revision": "b1739e04c0f6cb3e23a4d4d50f3952d8",
+    "url": "./static/media/raleway-v12-latin-500.b1739e04.eot"
+  },
+  {
+    "revision": "63f872bd86b6c89b54a78a5ff8f8c634",
+    "url": "./static/media/raleway-v12-latin-500.63f872bd.ttf"
   },
   {
     "revision": "0f85e4bfe865defa18588fc8e8448611",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "./static/js/main.ac1b5355.chunk.js"
   },
   {
-    "revision": "a58f25dc87faec123dd985c60acd54ff",
-    "url": "./static/media/raleway-v12-latin-900.a58f25dc.woff"
+    "revision": "a8c8ed48a1db3d40bda84eda823b4c14",
+    "url": "./static/media/raleway-v12-latin-500.a8c8ed48.svg"
   },
   {
     "revision": "e4fad40c810440a33c571feb566c8f25",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "./static/media/photo6.1d0da814.png"
   },
   {
-    "revision": "af5d3288318b80371c59df9a64887e38",
+    "revision": "e852478770e36c0a1351bf364646a1fa",
     "url": "./index.html"
   }
 ];
